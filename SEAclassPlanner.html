@@ -3,6 +3,14 @@
 <head>
  <meta charset="utf-8"/>
  <title>Bronco Class Planner</title>
+
+ <style>
+  table, th, td
+  {
+    border: 1px solid black;
+  }
+</style>
+
 </head>
 <body style="background-color:#90EE90">
  <h1>CPP Class Planner</h1>
@@ -18,7 +26,7 @@
   <br><br>
   
   
-  <p>Select Classes starting with: </p>
+  <p>Select classes starting with: </p>
 
   <input type="checkbox" id="year1" name="year1" value="One">
   <label for="year1"> 1000s </label><br>
@@ -32,10 +40,209 @@
   <input type="checkbox" id="year4" name="year4" value="Four">
   <label for="year4"> 4000s </label><br><br>
 
-</form>
+  <label for="quantity">Have a specific class you want to look up? :</label>
+  <input type="number" id="quantity" name="quantity" min="1000" max="5000"> <br><br>
+
 
 
   <input type="submit" value="Filter">
+
+  <table style="width: 100%">
+    <thead>
+      <caption><h4>Weekly Schedule</h4></caption>
+      <tr>
+        <th></th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+      </tr>
+      <tr style="height: 30px">
+        <th>6AM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="height: 30px">
+        <th>7AM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="height: 30px">
+        <th>8AM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="height: 30px">
+        <th>9AM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="height: 30px">
+        <th>10AM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="height: 30px">
+        <th>11AM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="height: 30px">
+        <th>12AM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="height: 30px">
+        <th>1PM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="height: 30px">
+        <th>2PM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="height: 30px">
+        <th>3PM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="height: 30px">
+        <th>4PM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="height: 30px">
+        <th>5PM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="height: 30px">
+        <th>6PM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="height: 30px">
+        <th>7PM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="height: 30px">
+        <th>8PM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="height: 30px">
+        <th>9PM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="height: 30px">
+        <th>10PM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="height: 30px">
+        <th>11PM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </thead>
+  </table>
+
 </form>
 
 
